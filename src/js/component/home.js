@@ -1,4 +1,5 @@
 import React from "react";
+import { SecretMessage } from "./SecretMessage";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -7,7 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home() {
 	return (
 		<div className="text-center mt-5">
-		< SecretMessage />
+			<SecretMessage />
 		</div>
 	);
 }
